@@ -86,7 +86,7 @@ The Blog Platform project consists of the following objects:
 ## How to start
 1) Clone the repository: 
 ```
-git clone https://github.com/burkhonov007/
+git clone https://github.com/burhonov007/platform-blog.git
 ```
 2) Create a virtual environment: 
 ```
@@ -115,7 +115,6 @@ python manage.py load_users
 python manage.py load_posts
 python manage.py load_likes_dislikes
 python manage.py load_comments
-
 ```
 7) Run the development server: 
 ```
