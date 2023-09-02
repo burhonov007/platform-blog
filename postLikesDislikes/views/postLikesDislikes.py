@@ -12,7 +12,6 @@ class PostLikesDislikesViewSet(generics.ListAPIView,
     serializer_class = PostLikeDislikeSerializer
 
     def get_serializer_class(self):
-        # Используйте разные сериализаторы в зависимости от действия
         if self.action in ['create']:
             return PostLikeDislikeCreateSerializer
         return PostLikeDislikeSerializer
