@@ -24,10 +24,10 @@ Welcome to the **Platform Blog** project! This project was created to develop a 
 The Blog Platform project consists of the following objects:
 
 1. User:
-    - "Nickname": generated based on the user's email.
-    - "E-mail": the user's e-mail address.
-    - "Password": user's password.
-    - "Role": the role of the user (admin or user).
+    - Nickname: generated based on the user's email.
+    - E-mail: the user's e-mail address.
+    - Password: user's password.
+    - Role: the role of the user (admin or user).
     - Additional profile information such as name, contact details, etc.
 
 
@@ -52,9 +52,9 @@ The Blog Platform project consists of the following objects:
       - Created_at : the date and time the comment was created.
 
 4. Category (represents a category or industry for post classification):
-    - name: Category name.
-    - description: description of the category.
-    - parent category: category name (to support tree-like categories.
+    - Name: Category name.
+    - Description: description of the category.
+    - Parent category: category name (to support tree-like categories.
 ---
 
 ## Features
